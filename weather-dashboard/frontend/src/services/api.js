@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://your-backend-name.onrender.com/api"', // Replace with production URL later
+  baseURL: 'https://weather-dashboard-backend-qeei.onrender.com', // Replace with production URL later
   headers: {
     'Content-Type': 'application/json'
   }
